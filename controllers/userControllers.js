@@ -3,7 +3,7 @@ const User = require("../models/user");
 
 const clientId = "86aue2n06v0823";
 const clientSecret = "L7YBEDGd4b08vFEe";
-const redirectUri = "http://localhost:3000/auth-linkedin-bridge";
+const redirectUri = "https://csuite-auth.netlify.app/auth-linkedin-bridge";
 
 exports.registerUser = async (req, res) => {
   let { name, authId, email, methord, Code } = req.body;
